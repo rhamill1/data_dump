@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :password_digest
       t.boolean :admin_flag
       t.belongs_to :namespace, foreign_key: true
-      t.belongs_to :user, foreign_key: "created_by_user_id"
+      t.integer :created_by_user_id
 
       t.timestamps
     end
