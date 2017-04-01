@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  created_by: MyString
+  admin_flag: false
+  namespace_id: MyString
+
+two:
+  username: MyString
+  created_by: MyString
+  admin_flag: false
+  namespace_id: MyString
