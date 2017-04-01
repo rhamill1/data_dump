@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :users
+  root to: 'admins#show'
+
+  resources :admins
   resources :namespaces
+  resources :users
 
 end
