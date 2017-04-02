@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <div class='nav-bar'>
+      <h5><%= link_to 'Home', root_path %></h5>
+      <h5><%= link_to 'About', about_path %></h5>
+      <h5><%= link_to 'Company', company_path %></h5>
+      <h5><%= link_to 'Contact', contact_path %></h5>
+
+    </div>
     <%= yield %>
   </body>
 </html>
